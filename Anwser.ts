@@ -29,8 +29,6 @@ interface User {
   name: string;
   age: number;
   address: string;
-
-  list_of_user?: User[];
 };
 
 const user_list : User[] = [{
